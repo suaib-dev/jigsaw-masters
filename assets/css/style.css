@@ -195,6 +195,10 @@ button, input, select, textarea {
   color: var(--text-main);
 }
 
+.mobile-menu-dropdown {
+  display: none;
+}
+
 /* ==========================================================================
    Hero Section
    ========================================================================== */
@@ -1308,5 +1312,11 @@ button, input, select, textarea {
   .hero-stats {
     flex-direction: column;
     gap: 1.25rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-menu-dropdown {
+    display: none !important;
   }
 }
