@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jigsaw Masters - Relaxing HD Jigsaw Puzzle Game</title>
+  <meta name="description" content="Discover Jigsaw Masters! Immerse yourself in over 30,000+ HD puzzles, daily challenges, mystery vault enigmas, and VIP masterpieces. Download free for iOS and Android.">
+  <meta name="keywords" content="Jigsaw Masters, jigsaw puzzle game, relaxing puzzle, HD jigsaw, daily challenge, puzzle streak, puzzle game app">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Jigsaw Masters - Relaxing HD Jigsaw Puzzle Game">
+  <meta property="og:description" content="Piece together your peace of mind with 30,000+ HD puzzles, daily streaks, and mystery enigmas.">
+  <meta property="og:image" content="assets/images/app-logo.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/app-logo.jpg">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Jigsaw Masters Home">
+        <div class="brand-icon">
+          <img src="assets/images/app-logo.jpg" alt="Jigsaw Masters Logo" width="44" height="44">
+        </div>
+        <div class="brand-text">Jigsaw<span>Masters</span></div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#modes">Game Modes</a></li>
+          <li><a href="#showcase">Gallery</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="privacy-policy.html">Privacy</a></li>
+          <li><a href="delete-account.html">Delete Account</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#download" class="btn-header-cta">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Play Free
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div class="mobile-menu-dropdown" id="mobileMenuDropdown">
+      <ul class="mobile-nav-list">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#modes">Game Modes</a></li>
+        <li><a href="#showcase">Screenshots</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="delete-account.html">Delete Account</a></li>
+      </ul>
+      <a href="#download" class="btn-header-cta mobile-cta-btn">Download Jigsaw Masters</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-pattern"></div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge-tag">
+          <span>✨</span> The Ultimate Relaxing Jigsaw Experience
+        </div>
+        <h1 class="hero-title">
+          Piece Together Your <span>Peace of Mind</span>
+        </h1>
+        <p class="hero-desc">
+          Escape into a calm world of over 30,000+ handcrafted HD puzzles. Challenge your mind with daily streaks, discover hidden pictures in the Mystery Vault, and assemble collector-grade VIP masterpieces.
+        </p>
+
+        <div class="hero-ctas" id="download">
+          <!-- App Store Badge -->
+          <a href="#" class="store-badge-btn" aria-label="Download on the App Store">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 1.01-2.87-1 .04-2.14.67-2.77 1.42-.55.65-.99 1.7-1.04 2.76 1.13.09 2.21-.57 2.8-1.31z"/>
+            </svg>
+            <div class="store-btn-text">
+              <span class="subtext">Download on the</span>
+              <span class="title">App Store</span>
+            </div>
+          </a>
+
+          <!-- Google Play Badge -->
+          <a href="#" class="store-badge-btn btn-google" aria-label="Get it on Google Play">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M3.609 1.814L13.793 12 3.61 22.186a1.982 1.982 0 0 1-.61-.918V2.732c0-.338.077-.665.209-.918zm11.238 11.24l2.122 2.122-11.493 6.643 9.371-8.765zm2.122-2.108L4.475 3.303l11.493 6.643-2.122 2.108zm1.06 1.054l2.678 1.547c.789.456.789 1.196 0 1.652l-2.678 1.547-1.487-1.487 1.487-1.487z"/>
+            </svg>
+            <div class="store-btn-text">
+              <span class="subtext">Get it on</span>
+              <span class="title">Google Play</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h4>30,000+</h4>
+            <p>HD Puzzles</p>
+          </div>
+          <div class="stat-item">
+            <h4>Daily Free</h4>
+            <p>Coin Bonuses</p>
+          </div>
+          <div class="stat-item">
+            <h4>100% Zen</h4>
+            <p>Relaxing & Offline</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual -->
+      <div class="hero-visual">
+        <div class="hero-main-card">
+          <img src="assets/images/app-logo.jpg" alt="Jigsaw Masters App Showcase" width="420" height="420">
+        </div>
+
+        <div class="floating-pill pill-1">
+          <div class="pill-icon">🧩</div>
+          <span>Lock In Secrets</span>
+        </div>
+
+        <div class="floating-pill pill-2">
+          <div class="pill-icon">⭐</div>
+          <span>Daily Bonus +150 Coins</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Features Section -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Why Jigsaw Masters</span>
+        <h2 class="section-title">Designed for Casual Comfort & Pure Focus</h2>
+        <p class="section-desc">Whether you have 5 minutes or a peaceful afternoon, Jigsaw Masters is crafted to help you unwind with crystal-clear imagery and tactile piece physics.</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              <circle cx="8.5" cy="8.5" r="1.5"></circle>
+              <polyline points="21 15 16 10 5 21"></polyline>
+            </svg>
+          </div>
+          <h3>30,000+ HD Puzzles</h3>
+          <p>Explore an enormous curated catalog spanning iconic World Landmarks, scenic Nature, colorful Florals, Architecture, and Animals.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+          </div>
+          <h3>Daily Free Challenges</h3>
+          <p>Complete a brand-new featured artwork every single day, keep your streak counter burning, and earn extra gold coins to unlock bonus sets.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+          </div>
+          <h3>Enigmatic Mystery Vault</h3>
+          <p>Test your intuition with concealed mysteries. The artwork is hidden in shadows until interlocking pieces reveal the secret scene.</p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+          </div>
+          <h3>VIP Masterpiece Shop</h3>
+          <p>Redeem your earned coins to acquire collector-grade masterpieces, from the historic Brooklyn Bridge to the cliffside charms of Cinque Terre.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- In-Game Showcase / Screenshots -->
+  <section class="section showcase-section" id="showcase">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">In-App Preview</span>
+        <h2 class="section-title">Stunning Visuals on Every Screen</h2>
+        <p class="section-desc">Take a look inside the Jigsaw Masters experience, crafted with clean modern UI, smooth transitions, and intuitive controls.</p>
+      </div>
+
+      <div class="screens-grid">
+        <!-- Screen 1: Gallery -->
+        <div class="screen-item">
+          <div class="screen-mockup">
+            <img src="assets/images/screen-gallery.jpg" alt="Jigsaw Masters HD Puzzle Catalog" loading="lazy">
+          </div>
+          <div class="screen-caption">
+            <h4>Infinite Gallery</h4>
+            <p>Filter by Landmarks, Nature & more</p>
+          </div>
+        </div>
+
+        <!-- Screen 2: Daily Challenge -->
+        <div class="screen-item">
+          <div class="screen-mockup">
+            <img src="assets/images/screen-daily.jpg" alt="Daily Free Challenge and Streaks" loading="lazy">
+          </div>
+          <div class="screen-caption">
+            <h4>Daily Streaks</h4>
+            <p>Solve daily puzzles for +150 coins</p>
+          </div>
+        </div>
+
+        <!-- Screen 3: Mystery Puzzles -->
+        <div class="screen-item">
+          <div class="screen-mockup">
+            <img src="assets/images/screen-mystery.jpg" alt="Mystery Vault Enigmas" loading="lazy">
+          </div>
+          <div class="screen-caption">
+            <h4>Mystery Vault</h4>
+            <p>Assemble hidden art enigmas</p>
+          </div>
+        </div>
+
+        <!-- Screen 4: VIP Shop -->
+        <div class="screen-item">
+          <div class="screen-mockup">
+            <img src="assets/images/screen-vip.jpg" alt="VIP Masterpiece Gallery Shop" loading="lazy">
+          </div>
+          <div class="screen-caption">
+            <h4>VIP Masterpieces</h4>
+            <p>Unlock fine collector art with coins</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deep Dive Game Modes -->
+  <section class="section" id="modes">
+    <div class="container modes-container">
+      
+      <!-- Mode 1: Daily Free -->
+      <div class="mode-row">
+        <div class="mode-content">
+          <span class="mode-tag">Daily Routine</span>
+          <h3 class="mode-title">Start Your Day with a Calming Mental Stretch</h3>
+          <p class="mode-desc">
+            Keep your streak alive and sharpen your visual memory every single day. Each morning delivers a brand new, handcrafted puzzle alongside coin bonuses, streak badges, and milestone awards.
+          </p>
+          <ul class="mode-checklist">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Fresh artwork unlocked every 24 hours
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Earn +150 bonus coins on daily completion
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Track your weekly calendar streak records
+            </li>
+          </ul>
+        </div>
+        <div class="mode-preview-frame">
+          <img src="assets/images/screen-daily.jpg" alt="Daily Free Challenge Screen" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Mode 2: Mystery Vault -->
+      <div class="mode-row reverse">
+        <div class="mode-content">
+          <span class="mode-tag">Thrilling Enigmas</span>
+          <h3 class="mode-title">Unlock Hidden Secrets in the Mystery Vault</h3>
+          <p class="mode-desc">
+            Bored of knowing what the picture looks like upfront? The Mystery Vault conceals the final artwork under a veil of shadows. As you snap pieces together, magical secrets emerge piece by piece!
+          </p>
+          <ul class="mode-checklist">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              8 unique enigmatic puzzles to solve
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              Dynamic piece-reveal visual animations
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              +50 extra coin bounty for every solved enigma
+            </li>
+          </ul>
+        </div>
+        <div class="mode-preview-frame">
+          <img src="assets/images/screen-mystery.jpg" alt="Mystery Vault Screen" loading="lazy">
+        </div>
+      </div>
+
+      <!-- Mode 3: VIP Shop -->
+      <div class="mode-row">
+        <div class="mode-content">
+          <span class="mode-tag">Collector's Pride</span>
+          <h3 class="mode-title">Earn Coins & Build Your Masterpiece Gallery</h3>
+          <p class="mode-desc">
+            No forced paywalls to experience the finest works of art. Play puzzles to earn coins, claim your +50 daily coin login bonus, and unlock collector-grade photography and landscape masterpieces.
+          </p>
+          <ul class="mode-checklist">
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              World-renowned iconic sights and natural wonders
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              100% unlockable through in-game gameplay coins
+            </li>
+            <li>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              High resolution zoom and save options
+            </li>
+          </ul>
+        </div>
+        <div class="mode-preview-frame">
+          <img src="assets/images/screen-vip.jpg" alt="VIP Shop Screen" loading="lazy">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section" id="faq" style="background: #ffffff; border-top: 1px solid var(--border-color);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-desc">Everything you need to know about playing and enjoying Jigsaw Masters.</p>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Is Jigsaw Masters free to play?</span>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! Jigsaw Masters is completely free to download and play. You can enjoy thousands of puzzles, daily challenges, and mystery vaults without paying a dime. Optional in-game items or coin packages can be purchased if you wish to unlock content faster.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Can I play offline without Wi-Fi?</span>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely. You can play your downloaded puzzle packs and ongoing games completely offline, making Jigsaw Masters the ideal companion for flights, commutes, or relaxing in nature.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How do daily challenges and streaks work?</span>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>A new unique puzzle arrives every day at midnight local time. Solving the puzzle adds a day to your streak calendar and rewards you with +150 bonus coins.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>How do I delete my game data or account?</span>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>You can delete your account and all associated cloud data at any time either within the game (via Settings ⚙️ &gt; Account &gt; Delete Account) or directly online through our dedicated <a href="delete-account.html">Account Deletion Page</a>.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Where can I read your Privacy Policy?</span>
+            <div class="faq-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+          </button>
+          <div class="faq-answer">
+            <p>We believe in total transparency. Our complete and detailed data policies are available on our <a href="privacy-policy.html">Privacy Policy page</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-section">
+    <div class="container cta-box">
+      <h2>Start Assembling Your First Masterpiece</h2>
+      <p>Join millions of puzzle lovers worldwide. Relax your mind, challenge your eyes, and enjoy beautiful high-resolution jigsaws today.</p>
+      <div class="cta-buttons">
+        <a href="#" class="store-badge-btn" aria-label="Download on App Store">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 1.01-2.87-1 .04-2.14.67-2.77 1.42-.55.65-.99 1.7-1.04 2.76 1.13.09 2.21-.57 2.8-1.31z"/>
+          </svg>
+          <div class="store-btn-text">
+            <span class="subtext">Download on the</span>
+            <span class="title">App Store</span>
+          </div>
+        </a>
+
+        <a href="#" class="store-badge-btn btn-google" aria-label="Get it on Google Play">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26">
+            <path d="M3.609 1.814L13.793 12 3.61 22.186a1.982 1.982 0 0 1-.61-.918V2.732c0-.338.077-.665.209-.918zm11.238 11.24l2.122 2.122-11.493 6.643 9.371-8.765zm2.122-2.108L4.475 3.303l11.493 6.643-2.122 2.108zm1.06 1.054l2.678 1.547c.789.456.789 1.196 0 1.652l-2.678 1.547-1.487-1.487 1.487-1.487z"/>
+          </svg>
+          <div class="store-btn-text">
+            <span class="subtext">Get it on</span>
+            <span class="title">Google Play</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-icon">
+              <img src="assets/images/app-logo.jpg" alt="Jigsaw Masters Logo" width="44" height="44">
+            </div>
+            <div class="brand-text">Jigsaw<span style="color: #8c77ff;">Masters</span></div>
+          </div>
+          <p class="footer-desc">
+            The premier high-definition jigsaw puzzle game designed to bring mindfulness, focus, and relaxation to players around the globe.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Game Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#features">Game Features</a></li>
+            <li><a href="#modes">Daily Challenge</a></li>
+            <li><a href="#modes">Mystery Vault</a></li>
+            <li><a href="#modes">VIP Shop</a></li>
+            <li><a href="#showcase">Gallery Showcase</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal & Compliance</h4>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="delete-account.html">Delete Account & Data</a></li>
+            <li><a href="privacy-policy.html#children">Children's Privacy</a></li>
+            <li><a href="privacy-policy.html#security">Data Safety</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Help & Support</h4>
+          <ul class="footer-links">
+            <li><a href="#faq">Frequently Asked Questions</a></li>
+            <li><a href="mailto:support@jigsawmastersgame.com">Contact Support</a></li>
+            <li><a href="delete-account.html">Account Request</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Jigsaw Masters. All rights reserved.</p>
+        <div class="footer-legal-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="delete-account.html">Delete Account</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
